@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RESUME</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gudea&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+      }
+      nav{
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+        height:50px;
+        background-color: rgb(18,18,62);
+      }
+      nav ul{
+
+        display:flex;
+        justify-content:center;
+      }
+      nav ul li{
+        list-style: none;
+        margin:0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color:white;
+
+      }
+      nav ul li a:hover{
+        color:rgb(170,170,228);
+        font-size:1.04rem;
+      }
+
+      .left{
+      
+        font-size: 1rem;
+      }
+      .firstSection{
+        display:flex;
+        align-items: center; justify-content: space-around;
+    
+        
+        
+      }
+      .firstSection> div{
+        width:30%;
+      }
+      
+      .leftSection{
+        margin:100px;
+        font-size: 1.5rem;
+      }
+      #element{
+        color:rgb(170,170,228);
+      }
+      .rightSection img{
+        margin:10%;
+        width: 100%;
+        height: 60%;
+        
+      }
+      #animation{
+        animation: change 2s step-end both;
+}
+
+@keyframes change {
+    from { color: rgb(170,170,228) }
+  
+    to { color: #B2AC88 }
+}
+
+      .Port{
+        color:aqua;
+      }
+
+  
+    </style>
+  </head>
+  <body>
+    <header>
+        <nav>
+            <div class="left"> Khushbu's<span class="Port"> Portfolio</span></div> 
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Github</a></li>
+                    <li><a href="/">LinkedIn</a></li>
+                    <li><a href="/">About</a></li>
+                    </LI>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">Hi,My name is<span class="multicolortext" id="animation"> Khushbu </span> 
+          <div> and I am a passionate </div>
+        
+          <span id="element"></span>
+
+        </div>
+        <div class="rightSection"><img src="PngItem_5237005.png"></div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+      <!-- Element to contain animated typing -->
+  
+
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Student of TSEC', 'Learner ',' Frontend Developer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+  </body>
+  </html>
